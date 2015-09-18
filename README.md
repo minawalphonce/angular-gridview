@@ -72,7 +72,9 @@ definition attributes
   visiblePageNumbers :  10
 }
 ```
+
 *cii-grid-select-method*
+
 [Required] set a method that will be called each time the grid need to be populated with data like.
 when view is first displayed (if autoload is true), when sorting needed or when pagging is needed. 
 
@@ -80,19 +82,29 @@ method must return a promise, with the needed data as promise parameter.
 method parameter can be sortExpression, pageIndex, pageSize 
 all parameters are optional.
 
+
 **Header**
+
 *data-cii-grid-sortexpression* 
+
 [Optional] can be added to any element that is allowed to be clicked. once clicked. 
 will take a sort expression as parameter (e.g. "Id",  "Id desc" , "Name desc, Id") 
 
+
 **Body**
+
 this part is the template that will be repeated.
+
 *data-cii-grid-data-template* 
+
 must be added to indicate the element that will be repeated. 
 inside it you can access the "item" which is a single object from within the array. 
 
+
 **Pagging**
+
 *data-cii-grid-data-pager* 
+
 must have a value from below 
 
 1. container: the paging container, whill be hidden if no pagges needed. 
