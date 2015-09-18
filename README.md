@@ -94,9 +94,10 @@ inside it you can access the "item" which is a single object from within the arr
 **Pagging**
 *data-cii-grid-data-pager* 
 must have a value from below 
-1- container: the paging container, whill be hidden if no pagges needed. 
-2- first  : go to the first page, will be hidden if it is the first page
-3- prev : go to the previous page, will be hidden if no previous page exists 
-4- numeric: a maximum of {visiblePageNumbers} visible page number including the current page. 
-5- next : go to the next page, will be hidden if no next page exists.
-6- last : go to the last page, will be hidden if it is the last page. 
+
+1. container: the paging container, whill be hidden if no pagges needed. 
+2. first  : go to the first page, will be hidden if it is the first page
+3. prev : go to the previous page, will be hidden if no previous page exists 
+4. numeric: a maximum of {visiblePageNumbers} visible page number including the current page. 
+5. next : go to the next page, will be hidden if no next page exists.
+6. last : go to the last page, will be hidden if it is the last page. 
