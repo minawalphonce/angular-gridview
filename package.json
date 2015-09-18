@@ -1,0 +1,23 @@
+{
+  "name": "angular-gridview",
+  "version": "1.0.0",
+  "description": "quick and simple Grid with angularJs",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minawalphonce/angular-gridview.git"
+  },
+  "keywords": [
+    "angularjs",
+    "gridview"
+  ],
+  "author": "Mina W Alphonce",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minawalphonce/angular-gridview/issues"
+  },
+  "homepage": "https://github.com/minawalphonce/angular-gridview#readme"
+}
