@@ -76,7 +76,7 @@ definition attributes
 *cii-grid-select-method*
 
 [Required] set a method that will be called each time the grid need to be populated with data like.
-when view is first displayed (if autoload is true), when sorting needed or when pagging is needed. 
+when view is first displayed (if autoload is true), when sorting needed or when paging is needed. 
 
 method must return a promise, with the needed data as promise parameter. 
 method parameter can be sortExpression, pageIndex, pageSize 
@@ -93,7 +93,7 @@ will take a sort expression as parameter (e.g. "Id",  "Id desc" , "Name desc, Id
 
 **Body**
 
-this part is the template that will be repeated.
+this part is the template that will be repeated.cii-grid-select-method
 
 *data-cii-grid-data-template* 
 
@@ -101,7 +101,7 @@ must be added to indicate the element that will be repeated.
 inside it you can access the "item" which is a single object from within the array. 
 
 
-**Pagging**
+**Paging**
 
 *data-cii-grid-data-pager* 
 
